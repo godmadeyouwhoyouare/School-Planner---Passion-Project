@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #bbbec3;
+}
+.assignment-list {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+.math,
+.assignment {
+    padding: 12px;
+    border-radius: 20px;
+    margin-top: 12px;
+    background: #d64a4a;
+}
+.assignment-form {
+    display: grid;
+    gap: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #d64a4a;
+    padding: 20px;
+  border-radius: 10px;   
+}
+ .assignment-form input {
+        padding: 8px;
+         margin-top: 12px;
+        border-radius: 20px;
+         background: #d79a9a; 
+ } 
+    .assignment-form button {
+        padding: 10px;
+        background: #bc862e;
+        color: white;
+}
+.assignment button {
+    padding: 8px; 
+    margin-left: 500px; 
+    background: #d64a4a;
+    color:#000000;
+    border-radius: 8px;
+}
+.completed {
+    opacity: 0.8;
+    text-decoration: line-through;
+    
+}
+
+.assignment.high {
+    background: #db3030;
+}
+.assignment.medium {
+    background: #f4d58d;
+}
+.assignment.low {
+    background: #a8d5a2;
+}
+.assignment-form select {
+    padding: 8px;
+    margin-top: 12px;
+    border-radius: 20px;
+    background: #d79a9a;
+}
+.assignment-form button:hover {
+    background: #8f641f;
+    cursor: pointer;
+}
+.assignment button:hover {
+    background: #e11717;
+    cursor: pointer;
+}

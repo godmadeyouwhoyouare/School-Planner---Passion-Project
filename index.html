@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- hidden setup information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My School Planner</title> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- visible content here -->
+   <h1> My School Planner </h1>
+   <section>
+     <form id="assignment-form" class="assignment-form">
+  <label for="assignment-name">Assignment Name:</label>
+  <input id="assignment-name" type="text" placeholder="Example: Math Homework" required>
+<label for="course">Class</label>
+<input id="course" type="text" placeholder="Example: Math" required>
+<label for="priority">Priority:</label>
+<select id = "priority" required>
+  <option value="">Choose a Priority</option>
+  <option value="high">High</option>
+  <option value="medium">Medium</option>
+  <option value="low">Low</option>
+</select>
+  <label for="due-date">Due Date:</label>
+  <input id="due-date" type="date" required>
+  
+
+  <button type="submit">Add Assignment</button>
+</form>
+     
+   </section>
+   <section class="assignment-list">
+        <h2> Upcoming Assignments and Due Dates </h2>
+        
+   </section>
+   <script src="js/app.js"></script>
+</body>
+ </html> 
+
+   
